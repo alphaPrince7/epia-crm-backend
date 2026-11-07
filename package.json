@@ -1,0 +1,15 @@
+{
+  "name": "epia-crm-backend",
+  "version": "1.0.0",
+  "description": "EPIA CRM backend — appointments, WhatsApp reminders, follow-ups (take-home assessment)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "express": "^4.21.0"
+  }
+}
